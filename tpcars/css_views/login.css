@@ -1,0 +1,59 @@
+.container-fluid {
+    z-index: 1;
+    background-image: url(../images/login/loginimag.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 781px;
+}
+
+.content-login {
+    padding-top: 50px;
+}
+
+.alert {
+    font-weight: bold;
+    text-align: center;
+}
+
+form {
+    background-color: cornsilk;
+    border: 3px solid #f1f1f1;
+}
+
+input[type=text],
+input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+}
+
+button {
+    width: 35%;
+    text-align: center;
+    background-color: cyan;
+    color: black;
+    padding: 14px 20px;
+    margin: 8px 33.3%;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: 0.5;
+    background-color: rgb(100, 230, 235);
+}
+
+.imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+}
+
+img.avatar {
+    width: 40%;
+    border-radius: 50%;
+}
+
+.container {
+    width: 100%;
+    padding: 16px;
+}

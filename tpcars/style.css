@@ -1,0 +1,240 @@
+body {
+    line-height: 1.8;
+    color: #818181;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.container-fluid {
+    padding: 60px 50px;
+}
+
+
+/*Home*/
+
+.jumbotron .carousel-inner img {
+    -webkit-filter: grayscale(0%);
+    filter: grayscale(0%);
+    width: 100%;
+    height: auto;
+    margin: auto;
+}
+
+.carousel-inner {
+    animation-name: slide;
+    -webkit-animation-name: slide;
+    animation-duration: 0.5s;
+    -webkit-animation-duration: 1s;
+    visibility: visible;
+}
+
+@keyframes mymove {
+    from {
+        left: 0px;
+    }
+    to {
+        left: 200px;
+    }
+}
+
+
+/*end Home*/
+
+
+/*Menu*/
+
+.navbar-brand {
+    background-image: url(images/logo/logo.jpg);
+    background-repeat: no-repeat;
+    background-size: 100px 55px;
+    width: 100px;
+    height: 55px;
+    padding: 0px;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: white;
+}
+
+.nav a {
+    border-radius: 10px;
+    font-size: 25px;
+    font-weight: 900px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.navbar-default .navbar-nav>li {
+    padding-top: 3px;
+}
+
+.dropdown-menu a {
+    text-decoration: none;
+}
+
+
+/*end menu*/
+
+
+/*Hãng xe*/
+
+.container-hangxe {
+    padding-top: 150px;
+}
+
+.box-image {
+    text-align: center;
+}
+
+.carousel-control.right,
+.carousel-control.left {
+    background-image: none;
+    color: black;
+}
+
+.item h4 {
+    font-size: 19px;
+    line-height: 1.375em;
+    font-weight: 400;
+    font-style: italic;
+    margin: 70px 0;
+}
+
+.item span {
+    font-style: normal;
+}
+
+.slide {
+    animation-name: slide;
+    -webkit-animation-name: slide;
+    animation-duration: 1s;
+    -webkit-animation-duration: 1s;
+    visibility: visible;
+}
+
+
+/*end hãng xe */
+
+
+/*giới thiệu*/
+
+#name {
+    text-align: center;
+    color: rgb(235, 22, 22);
+    font-weight: bold;
+    font-size: large;
+}
+
+#content-gioithieu {
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.panel:hover {
+    box-shadow: 5px 0px 40px rgba(0, 0, 0, .2);
+}
+
+.panel-group .panel {
+    margin-bottom: 0;
+    margin: 5px;
+}
+
+.panel-default {
+    border-color: #ddd;
+}
+
+.panel {
+    border-radius: 20px;
+    transition: box-shadow 0.5s;
+    background-color: #fff;
+    border: 1px solid transparent;
+}
+
+.panel-default>.panel-heading {
+    color: white;
+    background-color: rgb(235, 22, 22);
+    border-color: #ddd;
+}
+
+
+/*end giới thiệu*/
+
+
+/*Footer*/
+
+#lienhe {
+    border: 5px;
+    border-top: #818181;
+}
+
+footer .glyphicon {
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: black;
+}
+
+.panel-footer {
+    background-color: white !important;
+}
+
+.panel-footer h3 {
+    font-size: 32px;
+}
+
+.panel-footer h4 {
+    color: #aaa;
+    font-size: 14px;
+}
+
+.panel-footer .btn {
+    margin: 15px 0;
+    background-color: #f4511e;
+    color: #fff;
+}
+
+
+/*End Footer*/
+
+
+/*Tin tức*/
+
+.w3-col img {
+    width: 360px;
+    height: 240px;
+}
+
+
+/*end Tin tức*/
+
+
+/*Bang giá*/
+
+.bd-example {
+    padding-left: 9%;
+    padding-right: 9%;
+}
+
+.nav-pills a {
+    padding: 5px;
+    font-size: 20px;
+    border: 1px;
+    color: white;
+    background-color: rgb(226, 25, 25);
+    text-decoration: none;
+}
+
+.nav-pills a:hover {
+    background-color: black;
+}
+
+.tab-content table {
+    margin-top: 20px;
+}
+
+.thumnail button {
+    text-align: center;
+}
+
+
+/*End bảng giá*/

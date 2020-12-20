@@ -1,0 +1,65 @@
+body {
+    line-height: 1.8;
+    color: #818181;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+/*Menu*/
+
+.navbar-brand {
+    background-image: url(../images/logo/logo.jpg);
+    background-repeat: no-repeat;
+    background-size: 100px 55px;
+    width: 100px;
+    height: 55px;
+    padding: 0px;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: white;
+}
+
+.nav a {
+    border-radius: 10px;
+    font-size: 25px;
+    font-weight: 900px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.navbar-default .navbar-nav>li {
+    padding-top: 3px;
+}
+
+
+/*end menu*/
+
+
+/*gioi thieu*/
+
+.panelgioithieu {
+    margin-top: 80px;
+    text-align: center;
+    font-size: 20px;
+    color: rgb(226, 25, 25);
+}
+
+
+/*en giới thiêu*/
+
+
+/*san pham*/
+
+.anhten {
+    display: inline-block;
+}
+
+.containerchitiet {
+    padding-top: 30px;
+}
+
+
+/*end san pham*/
